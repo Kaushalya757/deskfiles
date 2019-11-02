@@ -1,0 +1,49 @@
+intall code-->npm intall -g @angular/cli
+create file-ng new myfile
+
+approot components
+apps all files is roots compoments
+appcomponet.ts->selector: 'app-root'(this is hold app root
+
+index.html
+it allow to create single page 
+
+how it run
+main.ts ->(implement function)   app.module.ts--->(we pass our arguments to tell the angular) -----> 
+app.components(analysis app components)
+ --------------------------------------------
+components always starts with @componets(also called decoraters)
+appmodule->angular uses components-for wedpage appmodule uses in bundles to create pages like components 
+imports-->its simply allows to add modules
+--------------------------------------------------------------------------------------------------------------------------------
+how to create component
+->go to app
+->create own folder(like serve)
+->in folder create file (server.component.ts)
+    .create root like this---->
+
+	import{ Component } from '@angular/core';
+
+	@Component({
+    		selector: 'app-server',
+    		templateUrl: './server.component.html'
+	})
+	export class ServerComponent {
+
+	}
+
+->create one more file(server.component.html)
+here you will make your html form
+
+->call in app.module.ts
+	.import
+	.declare
+->than show rought in 
+	.app.component.html
+       =><app-footer></app-footer>
+
+-----------------------------------
+open assissment
+
+1.What is data 
+		

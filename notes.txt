@@ -1,0 +1,42 @@
+best apps for development
+colorzilla------>for color pic 
+page ruler------>show page hight
+what font------->know font in any web page
+just color pic ----->choose color of icon wallpaper
+ https://github.com/angular/angular-cli/wiki--------------------------------
+//project link here for home work===>https://pixinvent.com/apex-angular-4-bootstrap-admin-template/demo-1/dashboard/dashboard2
+--------------------------------------------
+component- which assign string as value which hold app route
+anngualr ---> 
+$number = 2 ;
+while ($number < 100 ){
+	$div_count=0;
+	for ( $i=1;$i<=$number;$i++){	
+			if (($number%$i)==0){
+			$div_count++;
+			}
+		}
+	if ($div_count<3){
+		echo $number." , ";
+		}
+		$number=$number+1;
+}
+--------------------------------------
+
+function IsPrime($n)
+{
+ for($x=2; $x<$n; $x++)
+   {
+      if($n %$x ==0)
+	      {
+		   return 0;
+		  }
+    }
+  return 1;
+   }
+$a = IsPrime(1);
+if ($a==0)
+echo 'This is not a Prime Number.....'."\n";
+else
+echo 'This is a Prime Number..'."\n";
+---------------------------------------------------------
